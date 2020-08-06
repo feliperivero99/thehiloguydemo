@@ -1,95 +1,108 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-<head>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Leelanau Landworks" />
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta name="author" content="Leelanau Landworks">
-	
-	<link rel="apple-touch-icon" sizes="180x180" href="images\main\tractor.JPG">
-	<link rel="icon" type="image/JPG" href="images\main\tractor.JPG" sizes="32x32">
-	<link rel="icon" type="image/JPG" href="images\main\tractor.JPG" sizes="16x16">
-	
-	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="theme-color" content="#ffffff">
+        <link rel="apple-touch-icon" sizes="180x180" href="images\main\tractor.JPG" />
+        <link rel="icon" type="image/JPG" href="images\main\tractor.JPG" sizes="32x32" />
+        <link rel="icon" type="image/JPG" href="images\main\tractor.JPG" sizes="16x16" />
 
-	<!-- Stylesheets
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- Stylesheets
 		============================================= -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="css\bootstrap.css" type="text/css">
-		<link rel="stylesheet" href="style.css" type="text/css">
-		<link rel="stylesheet" href="css\dark.css" type="text/css">
-		<link rel="stylesheet" href="css\font-icons.css" type="text/css">
-		<link rel="stylesheet" href="css\animate.css" type="text/css">
-		<link rel="stylesheet" href="css\magnific-popup.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css\bootstrap.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="css\dark.css" type="text/css" />
+        <link rel="stylesheet" href="css\font-icons.css" type="text/css" />
+        <link rel="stylesheet" href="css\animate.css" type="text/css" />
+        <link rel="stylesheet" href="css\magnific-popup.css" type="text/css" />
 
-		<link rel="stylesheet" href="css\responsive.css" type="text/css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+        <link rel="stylesheet" href="css\responsive.css" type="text/css" />
+        <link rel="stylesheet" href="css/light_box.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen" />
 
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Document Title
+        <!-- Document Title
 		============================================= -->
-		<title>The HiLo Guy </title>
+        <title>The HiLo Guy</title>
 
-	</head>
+        <style>
+            img.zoom {
+                width: 100%;
+                height: 200px;
+                border-radius: 5px;
+                object-fit: cover;
+                -webkit-transition: all 0.3s ease-in-out;
+                -moz-transition: all 0.3s ease-in-out;
+                -o-transition: all 0.3s ease-in-out;
+                -ms-transition: all 0.3s ease-in-out;
+            }
 
-	<body data-loader-timeout="”2000″" class="stretched">
+            .thumb {
+                margin-bottom: 30px;
+            }
+        </style>
+    </head>
 
-	<!-- Document Wrapper
+    <body data-loader-timeout="”2000″" class="stretched">
+        <!-- Document Wrapper
 		============================================= -->
-		<div id="wrapper" class="clearfix">
-
-
-
-
-<!-- Top Bar
+        <div id="wrapper" class="clearfix">
+            <!-- Top Bar
 	============================================= -->
-	<div id="top-bar" style="background: #efefef;">
-
-		<div class="container clearfix">
-
-			<div class="col_half nobottommargin">
-
-					<!-- Top Links
+            <div id="top-bar" style="background: #efefef;">
+                <div class="container clearfix">
+                    <div class="col_half nobottommargin">
+                        <!-- Top Links
 						============================================= -->
-						<div class="top-links">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="tel:586.322.7778" style="color:#cc0000;"><b>+1 586-322-7778</b></a></li>
-							</ul>
-						</div><!-- .top-links end -->
+                        <div class="top-links">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li>
+                                    <a href="tel:586.322.7778" style="color: #cc0000;"><b>+1 586-322-7778</b></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- .top-links end -->
+                    </div>
 
-					</div>
-
-					<div class="col_half fright col_last nobottommargin">
-
-					<!-- Top Social
+                    <div class="col_half fright col_last nobottommargin">
+                        <!-- Top Social
 						============================================= -->
-						<div id="top-social">
-							<ul>
-								<li><a href="https://www.facebook.com/thehiloguy/" class="si-facebook" target="_blank"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
-								
-								<li><a href="mailto:hiloguymichigan@gmail.com" class="si-email3"><span class="ts-icon"><i class="icon-email3"></i></span><span class="ts-text">hiloguymichigan@gmail.com</span></a></li>
-							</ul>
-						</div><!-- #top-social end -->
+                        <div id="top-social">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/thehiloguy/" class="si-facebook" target="_blank">
+                                        <span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span>
+                                    </a>
+                                </li>
 
-					</div>
+                                <li>
+                                    <a href="mailto:hiloguymichigan@gmail.com" class="si-email3">
+                                        <span class="ts-icon"><i class="icon-email3"></i></span><span class="ts-text">hiloguymichigan@gmail.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- #top-social end -->
+                    </div>
+                </div>
+            </div>
+            <!-- #top-bar end -->
 
-				</div>
+            <div class="container clearfix">&nbsp;</div>
 
-			</div><!-- #top-bar end -->
-
-
-			<div class="container clearfix"> &nbsp; </div>
-
-<!-- Header
+            <!-- Header
 	============================================= -->
-	<header id="header" class="sticky-style-2">
-
-		<!-- <div class="container clearfix">
+            <header id="header" class="sticky-style-2">
+                <!-- <div class="container clearfix">
 
                     Logo
                     	============================================= 
@@ -101,283 +114,293 @@
 
                     </div>-->
 
-
-                    <div id="header-wrap">
-
-				<!-- Primary Navigation
+                <div id="header-wrap">
+                    <!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu" class="style-2">
+                    <nav id="primary-menu" class="style-2">
+                        <div class="container clearfix">
+                            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
-						<div class="container clearfix">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About US</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- #primary-menu end -->
+                </div>
+            </header>
+            <!-- #header end -->
 
-							<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+            <section id="content">
+                <div class="content-wrap">
+                    <div class="container clearfix">
+                        <div class="clear"></div>
 
-								<ul>
-								<li><a href="index.html" >Home</a></li>
-								<li><a href="about.html">About US</a></li>
-								<li><a href="#">Gallery</a></li>
-								<li><a href="contact.html" >Contact</a></li>
-							</ul>
-
-
-
-						</div>
-
-					</nav><!-- #primary-menu end -->
-
-				</div>
-
-			</header><!-- #header end -->
-
-
-
-	<section id="content">
-
-				<div class="content-wrap"> 
-
-					<div class="container clearfix">
-
-
-					
-						<div class="clear"></div>  
-
-						<h2 class="red">Gallery</h2>
-						<div class="col_half nobottommargin" style="width:100% !important; padding: 10px;">
-							
-						</div>
-						<div class="container page-top col_half nobottommargin"  style="width:100% !important; padding: 10px;">
-							<div class="row">
+                        <h2 class="red">Gallery</h2>
+                        <div class="col_half nobottommargin" style="width: 100% !important; padding: 10px;"></div>
+                        <div class="container page-top col_half nobottommargin" style="width: 100% !important; padding: 10px;">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                    <a href="images\main\40352625_291054381679516_3582777541259165696_o.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\40352625_291054381679516_3582777541259165696_o.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
 								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-									<a  class="fancybox" rel="ligthbox" style="cursor:pointer"  onclick="clickimag('IMG_3351.JPG','Repairing a washed out driveway')">
-										<img src="images\main\IMG_3351.JPG" class="zoom img-fluid " alt="">
-
-									</a>
-								</div>
+                                    <a href="images\main\-614822574438723038.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\-614822574438723038.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
 								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-									<a  class="fancybox" rel="ligthbox" style="cursor:pointer"  onclick="clickimag('IMG_3315.JPG','Repairing a washed out driveway')">
-										<img src="images\main\IMG_3315.JPG" class="zoom img-fluid" alt="">
-									</a>
-								</div>
-
+                                    <a href="images\main\-710414895087860080.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\-710414895087860080.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
 								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-									<a  class="fancybox" rel="ligthbox" style="cursor:pointer"  onclick="clickimag('IMG_3389.JPG',' Clearing a path through the woods')">
-										<img src="images\main\IMG_3389.JPG" class="zoom img-fluid " alt="">
-									</a>
-								</div>
-
+                                    <a href="images\main\2022252928108690603.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\2022252928108690603.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
 								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-									<a  class="fancybox" rel="ligthbox" style="cursor:pointer"  onclick="clickimag('IMG_3321.JPG','Clearing out a spot for a deer blind')">
-										<img src="images\main\IMG_3321.JPG" class="zoom img-fluid " alt="">
-									</a>
-								</div>
-
+                                    <a href="images\main\-1250229109544816858.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\-1250229109544816858.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
 								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-									<a  class="fancybox" rel="ligthbox" style="cursor:pointer"  onclick="clickimag('IMG_3322.JPG',' Clearing a path through the woods')">
-										<img src="images\main\IMG_3322.JPG" class="zoom img-fluid " alt="">
-									</a>
-								</div>
-
+                                    <a href="images\main\3241061573166999499.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\3241061573166999499.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
+								
 								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-									<a  class="fancybox" rel="ligthbox" style="cursor:pointer"  onclick="clickimag('IMG_3388.JPG','Clearing out a spot for a deer blind')">
-										<img src="images\main\IMG_3388.JPG" class="zoom img-fluid " alt="">
-									</a>
-								</div>
-
+                                    <a href="images\main\3467684249204202180.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\3467684249204202180.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
 								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-									<a  class="fancybox" rel="ligthbox" style="cursor:pointer"  onclick="clickimag('IMG_3352.JPG',' Clearing a path through the woods')">
-										<img src="images\main\IMG_3352.JPG" class="zoom img-fluid " alt="">
-									</a>
-								</div>
-
+                                    <a href="images\main\-4178695444854661689.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\-4178695444854661689.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
 								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-									<a  class="fancybox" rel="ligthbox" style="cursor:pointer"  onclick="clickimag('IMG_3353.JPG','Repairing a washed out driveway')">
-										<img src="images\main\IMG_3353.JPG" class="zoom img-fluid " alt="">
-									</a>
-								</div>
+                                    <a href="images\main\4555562819646999058.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\4555562819646999058.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                    <a href="images\main\-5447618135397045840.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\-5447618135397045840.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
+								
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                    <a href="images\main\5494850913261041735.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\5494850913261041735.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
+									<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                    <a href="images\main\6053083246723950686.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\6053083246723950686.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                    <a href="images\main\6902325179542490894.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\6902325179542490894.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                    <a href="images\main\7471100081968049823.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\7471100081968049823.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
+									
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                    <a href="images\main\-7663434086370834185.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\-7663434086370834185.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
+									<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                    <a href="images\main\-7883691669847992475.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\-7883691669847992475.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
+								
+										<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                    <a href="images\main\-8580611291407854518.jpg" class="fancybox" rel="ligthbox">
+                                        <img src="images\main\-9122244073345746871.jpg" class="zoom img-fluid" alt="" />
+                                    </a>
+                                </div>
+								
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /content wrap -->
+                </div>
+            </section>
+            <!-- #content end -->
 
-							</div>
-						</div>
+            <section style="text-align: center; margin-bottom: -10px !important; background: #f9e9cf;">
+                <h2 style="margin: 1em; padding-top: 30px;">Proudly Serving The Detroit / Roseville Area</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79147.40723130418!2d-83.03671703452268!3d42.50572837670465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d9c38a8d8495%3A0xe46c5248668b4b48!2s28316%20Hayes%20Rd%2C%20Roseville%2C%20MI%2048066%2C%20USA!5e0!3m2!1sen!2sco!4v1596723589603!5m2!1sen!2sco"
+                    width="100%"
+                    height="500"
+                    frameborder="0"
+                    style="border: 0;"
+                    allowfullscreen=""
+                ></iframe>
+            </section>
 
-						
-					
+            <div style="background: #eee; height: 200px;">
+                <div class="container clearfix" style="background: #eee;">
+                    <div class="promo promo-full promo-border nobottommargin footer-stick" style="background: #eee; margin-top: 1.3em;">
+                        <div class="container clearfix">
+                            <h3>Call us at <span>586-322-7778</span> for a free project estimate.</h3>
+                            <div class="clear"></div>
+                            <a href="contact.html" class="button button-reveal button-xlarge button-rounded"><i class="icon-angle-right"></i><span>CONTACT US</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-
-					</div><!-- /content wrap -->
-				</div>
-
-
-			</section><!-- #content end -->
-
-
-			
-
-				<section style="text-align:center;     margin-bottom: -10px !important; background: #F9E9CF;">
-					<h2 style="margin:1em; padding-top: 30px">Proudly Serving The Detroit / Roseville Area</h2>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79147.40723130418!2d-83.03671703452268!3d42.50572837670465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d9c38a8d8495%3A0xe46c5248668b4b48!2s28316%20Hayes%20Rd%2C%20Roseville%2C%20MI%2048066%2C%20USA!5e0!3m2!1sen!2sco!4v1596723589603!5m2!1sen!2sco" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
-
-					
-				</section>
-
-				<div  style="background: #eee; height: 200px; ">
-						<div class="container clearfix" style="background: #eee; ">
-
-
-							<div class="promo promo-full promo-border nobottommargin footer-stick" style="background: #eee;margin-top: 1.3em; ">
-
-								<div class="container clearfix">         
-									<h3>Call us at <span>586-322-7778</span> for a free project estimate.</h3>
-									<div class="clear"></div>
-									<a href="contact.html" class="button button-reveal button-xlarge button-rounded" ><i class="icon-angle-right"></i><span>CONTACT US</span></a>
-
-								</div>
-
-							</div>		
-						</div>	
-					</div>
-
-
-
-			
-<!-- Footer
+            <!-- Footer
 	============================================= -->
 
-	<footer id="footer" class="dark header-stick">
-
-		<div class="container">
-
-				<!-- Footer Widgets
+            <footer id="footer" class="dark header-stick">
+                <div class="container">
+                    <!-- Footer Widgets
 					============================================= -->
-					<div class="footer-widgets-wrap clearfix">
+                    <div class="footer-widgets-wrap clearfix">
+                        <div class="col_two_third">
+                            <h3 style="padding-left: 0px;">At thehiloguy we don't serve just our county!</h3>
+                            <p style="padding-left: 0px; padding-right: 50px; text-align: justify;">Michigan family independently owned forklift/hilo company serving southeastern michigan for 30 years.</p>
+                            <img src="images/logo.jpg" alt="" class="footer-logo" />
+                        </div>
+                        <!-- / column -->
 
-						<div class="col_two_third">
+                        <div class="col_one_third col_last">
+                            <div class="widget clearfix">
+                                <div class="bottommargin-sm"></div>
 
+                                <div class="footer-big-contacts">
+                                    <span>ADDRESS:</span>
+                                    28316 Hayes Rd, Roseville, MI 48066, United States<br />
+                                </div>
 
-							<h3 style="padding-left:0px; ">At thehiloguy we don't serve just our county! </h3>
-							<p style="padding-left:0px; padding-right:50px; text-align: justify;">Michigan family independently owned forklift/hilo company serving southeastern michigan for 30 years.</p>
-							<img src="images/logo.jpg" alt="" class="footer-logo">
+                                <div class="bottommargin-sm"></div>
 
-						</div><!-- / column -->
+                                <div class="footer-big-contacts">
+                                    <span>CONTACT:</span>
+                                    586-322-7778<br />
+                                    hiloguymichigan@gmail.com<br />
+                                </div>
+                                <div class="bottommargin-sm"></div>
 
+                                <div class="footer-big-contacts">
+                                    <span>CONNECT:</span>
+                                </div>
 
-						<div class="col_one_third col_last">
+                                <a href="https://www.facebook.com/thehiloguy/" target="_blank" class="social-icon si-rounded si-small si-colored si-facebook">
+                                    <i class="icon-facebook"></i>
+                                    <i class="icon-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- / column -->
+                    </div>
+                    <!-- .footer-widgets-wrap end -->
+                </div>
 
-							<div class="widget clearfix">
-
-								<div class="bottommargin-sm"></div>
-
-								<div class="footer-big-contacts">
-									<span>ADDRESS:</span>
-									28316 Hayes Rd, Roseville, MI 48066, United States<br>
-									
-								</div>
-
-
-								<div class="bottommargin-sm"></div>
-
-								<div class="footer-big-contacts">
-									<span>CONTACT:</span>
-									586-322-7778<br>
-									hiloguymichigan@gmail.com<br>
-								</div>
-								<div class="bottommargin-sm"></div>
-
-								<div class="footer-big-contacts">
-									<span>CONNECT:</span>
-								</div>
-
-								<a href="https://www.facebook.com/thehiloguy/" target="_blank" class="social-icon si-rounded si-small si-colored si-facebook">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>				
-
-							
-
-							</div>
-
-						</div><!-- / column -->
-
-					</div><!-- .footer-widgets-wrap end -->
-
-				</div>
-
-			<!-- Copyrights
+                <!-- Copyrights
 				============================================= -->
-				<div id="copyrights">
+                <div id="copyrights">
+                    <div class="container clearfix">
+                        <div class="col_full">Copyright &copy; 2016-2020 The HiLo Guy | Website developed & hosted by <a href="https://schrader.co" target="blank">Schrader Web Solutions</a></div>
+                    </div>
+                </div>
+                <!-- #copyrights end -->
+            </footer>
+            <!-- #footer end -->
+        </div>
+        <!-- #wrapper end -->
 
-					<div class="container clearfix">
-
-						<div class="col_full">Copyright &copy; 2016-2020 The HiLo Guy | Website developed & hosted by <a href="https://schrader.co" target="blank">Schrader Web Solutions</a>
-						</div>
-					</div>
-
-				</div><!-- #copyrights end -->
-
-			</footer><!-- #footer end -->
-
-
-
-
-
-
-		</div><!-- #wrapper end -->
-
-	<!-- Go To Top
+        <!-- Go To Top
 		============================================= -->
-		<div id="gotoTop" class="icon-angle-up"></div>
-		
-		<!-- Modal -->
-		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel"></h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<img id="modalimg" src="" style="width:100%; height:auto;">
+        <div id="gotoTop" class="icon-angle-up"></div>
 
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary">Save changes</button>
-					</div>
-				</div>
-			</div>
-		</div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img id="modalimg" src="" style="width: 100%; height: auto;" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-	<!-- External JavaScripts
+        <!-- External JavaScripts
 		============================================= -->
-		<script type="text/javascript" src="js\jquery.js"></script>
-		<script type="text/javascript" src="js\plugins.js"></script>
-		<script type="text/javascript" src="js\gallery.js"></script>
+        <!-- helper js-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.mixitup.min.js"></script>
+        <script src="js/theme.js"></script>
+        <script src="js/imagelightbox.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/main.js"></script>
 
+        <!--load js library-->
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/gallery.js"></script>
 
+        <!-- End script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
-	<!-- Footer Scripts
+        <!-- Footer Scripts
 		============================================= -->
-		<script type="text/javascript" src="js\functions.js"></script>
+        <script type="text/javascript" src="js\functions.js"></script>
 
+        <!-- End script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
-		<!-- End script -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-		<script>
-			function clickimag(imgen,text){
-				console.log(imgen);
-				document.getElementById('modalimg').src="images/main/"+imgen;
-				var text2 = document.createTextNode(text);
-				document.getElementById('exampleModalLabel').textContent = text;
-				$('#exampleModal').modal("show");
-			}
-		</script>
-
-
-	</body>
-	</html>
+        <script>
+            function clickimag(imgen, text) {
+                console.log(imgen);
+                document.getElementById("modalimg").src = "images/main/" + imgen;
+                var text2 = document.createTextNode(text);
+                document.getElementById("exampleModalLabel").textContent = text;
+                $("#exampleModal").modal("show");
+            }
+        </script>
+    </body>
+</html>
