@@ -1853,7 +1853,7 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
 }
 
 .siscont{
-	max-height:600px !important;
+	max-height:450px !important;
 }
 
 @media only screen and (max-width: 1400px) {
