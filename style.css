@@ -10556,11 +10556,15 @@ blockquote.pull-right {
 	float: left;
 	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;
+	 background-image: url("images/pexels-pixabay-46160.jpg");
+	 background-repeat: no-repeat;
+   background-position: center, center; 
+   background-size:cover;
 }
 
 .owl-carousel .owl-item img {
 	display:block;
-	width:100%;
+	width:auto;
 	-webkit-transform-style:preserve-3d;
 }
 
